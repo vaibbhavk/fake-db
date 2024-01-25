@@ -1,25 +1,34 @@
 {
-    "students": [
-        {
-            "id": 1,
-            "first_name": "Vaibhav",
-            "last_name": "Kesharwani",
-            "email": "vaibhav.vk2128@gmail.com",
-            "is_paid": false
-        },
-        {
-            "id": 2,
-            "first_name": "Akhil",
-            "last_name": "Gautam",
-            "email": "ak@gmail.com",
-            "is_paid": false
-        },
-        {
-            "id": 3,
-            "first_name": "Nikhil",
-            "last_name": "Gautam",
-            "email": "ng@gmail.com",
-            "is_paid": false
-        }
-    ]
+  "documents": [
+    {
+      "document_id": "doc123",
+      "document_type": "Delivery Note",
+      "document_url": "pdf/delivery-note.pdf",
+      "user_id": "user456",
+      "signatory": {
+        "name": "John Doe",
+        "signature": "base64_encoded_signature_string"
+      }
+    },
+    {
+      "document_id": "doc456",
+      "document_type": "Return Note",
+      "document_url": "pdf/return-note-1.pdf",
+      "user_id": "user789",
+      "signatory": {
+        "name": "Jane Smith",
+        "signature": "base64_encoded_signature_string"
+      }
+    },
+    {
+      "document_id": "doc120",
+      "document_type": "Return Note",
+      "document_url": "pdf/return-note-2.pdf",
+      "user_id": "user800",
+      "signatory": {
+        "name": "Vaibhav Kesharwani",
+        "signature": "base64_encoded_signature_string"
+      }
+    }
+  ]
 }
